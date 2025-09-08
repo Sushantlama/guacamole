@@ -1,0 +1,25 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dataset or large files (optional if you don't want to push CSV)
+result_final.csv
+data/
+
+# Logs
+*.log
+
+# IDE configs
+.vscode/
+.idea/
+
+

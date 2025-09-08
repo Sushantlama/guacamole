@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Daily Pulse - Professional News</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-top">
+        <span id="currentDate"></span>
+      </div>
+      
+      <div class="header-main">
+        <div class="logo">
+          <i class="fas fa-newspaper"></i>
+          <div>
+            <h1>The Daily Pulse</h1>
+            <div class="subtitle">Your Source for Breaking News</div>
+          </div>
+        </div>
+        
+        <nav>
+          <ul>
+            <li><a href="#" onclick="loadFeatured()"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#" onclick="loadFeatured('tech')"><i class="fas fa-microchip"></i> Tech</a></li>
+            <li><a href="#" onclick="loadFeatured('sports')"><i class="fas fa-football-ball"></i> Sports</a></li>
+            <li><a href="#" onclick="loadFeatured('world')"><i class="fas fa-globe"></i> World</a></li>
+          </ul>
+        </nav>
+      </div>
+      
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero"></section>
+
+      <!-- Featured Articles -->
+      <div class="section-header">
+        <h2>Featured News</h2>
+        <p>Curated news stories from around the world</p>
+      </div>
+      
+      <div id="featuredGrid" class="featured-grid"></div>
+
+      <!-- Newsletter Signup -->
+      <section class="newsletter-section">
+        <div class="newsletter-content">
+          <h3>Stay Informed</h3>
+          <p>Get the latest news delivered straight to your inbox every morning</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Enter your email address" />
+            <button type="submit">
+              <i class="fas fa-paper-plane"></i> Subscribe
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Modal for Recommendations -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 id="modalTitle"></h2>
+          <button class="close" onclick="closeModal()">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div id="recommendations" class="recommendations-grid"></div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <a href="#">About Us</a>
+          <a href="#">Contact</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+        <div class="footer-section">
+          <h4>Categories</h4>
+          <a href="#">World News</a>
+          <a href="#">Technology</a>
+          <a href="#">Sports</a>
+          <a href="#">Business</a>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <p>&copy; 2024 The Daily Pulse. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
