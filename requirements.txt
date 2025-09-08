@@ -7,4 +7,3 @@ streamlit
 scipy
 uvicorn
 FastAPI
-pickle
