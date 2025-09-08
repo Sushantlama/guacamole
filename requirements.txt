@@ -6,3 +6,5 @@ matplotlib
 streamlit
 scipy
 uvicorn
+FastAPI
+pickle
