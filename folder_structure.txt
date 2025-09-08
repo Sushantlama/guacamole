@@ -1,0 +1,98 @@
+📦News_Recommedation
+ ┣ 📂.git
+ ┃ ┣ 📂hooks
+ ┃ ┃ ┣ 📜applypatch-msg.sample
+ ┃ ┃ ┣ 📜commit-msg.sample
+ ┃ ┃ ┣ 📜fsmonitor-watchman.sample
+ ┃ ┃ ┣ 📜post-update.sample
+ ┃ ┃ ┣ 📜pre-applypatch.sample
+ ┃ ┃ ┣ 📜pre-commit.sample
+ ┃ ┃ ┣ 📜pre-merge-commit.sample
+ ┃ ┃ ┣ 📜pre-push.sample
+ ┃ ┃ ┣ 📜pre-rebase.sample
+ ┃ ┃ ┣ 📜pre-receive.sample
+ ┃ ┃ ┣ 📜prepare-commit-msg.sample
+ ┃ ┃ ┣ 📜push-to-checkout.sample
+ ┃ ┃ ┗ 📜update.sample
+ ┃ ┣ 📂info
+ ┃ ┃ ┗ 📜exclude
+ ┃ ┣ 📂logs
+ ┃ ┃ ┣ 📂refs
+ ┃ ┃ ┃ ┣ 📂heads
+ ┃ ┃ ┃ ┃ ┗ 📜main
+ ┃ ┃ ┃ ┗ 📂remotes
+ ┃ ┃ ┃ ┃ ┗ 📂origin
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜main
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜master
+ ┃ ┃ ┗ 📜HEAD
+ ┃ ┣ 📂objects
+ ┃ ┃ ┣ 📂04
+ ┃ ┃ ┃ ┗ 📜71e7bbe1c64800a6b33415258ceaed0b115c37
+ ┃ ┃ ┣ 📂07
+ ┃ ┃ ┃ ┗ 📜11f6049f41cef9816d752988b416b89487f68e
+ ┃ ┃ ┣ 📂30
+ ┃ ┃ ┃ ┗ 📜5983c7812e8a6566134a82ef1cd5250044717a
+ ┃ ┃ ┣ 📂3c
+ ┃ ┃ ┃ ┗ 📜a0ebf3f2bbf523205def5d64c367e2c2dc64f0
+ ┃ ┃ ┣ 📂3d
+ ┃ ┃ ┃ ┣ 📜24d4aa541378f2ac4eadf9f89a4551c2b719ff
+ ┃ ┃ ┃ ┗ 📜c04e8722cefbccf52265a9cb10f8a31050e336
+ ┃ ┃ ┣ 📂42
+ ┃ ┃ ┃ ┗ 📜897f7bff97179c7c273b24330632151ba9de1f
+ ┃ ┃ ┣ 📂6e
+ ┃ ┃ ┃ ┗ 📜8f3f2894c1a3413a3238bcaf7bbb2cc932c86f
+ ┃ ┃ ┣ 📂80
+ ┃ ┃ ┃ ┗ 📜09261c0c156f7ae4edc37574741ac718968c21
+ ┃ ┃ ┣ 📂8c
+ ┃ ┃ ┃ ┗ 📜077684cf6a99c7902f6b1d8fa1e3d39fae8cee
+ ┃ ┃ ┣ 📂94
+ ┃ ┃ ┃ ┗ 📜398d58839338e12b9dcc466dce57da6247cbbb
+ ┃ ┃ ┣ 📂97
+ ┃ ┃ ┃ ┗ 📜625718ed52600bed26c15f5bfad32dc5bb26b2
+ ┃ ┃ ┣ 📂d7
+ ┃ ┃ ┃ ┗ 📜ef7c2ebb34bdc1ec1f53c213488dd7448f2ba5
+ ┃ ┃ ┣ 📂dd
+ ┃ ┃ ┃ ┗ 📜051570e27aec42f4f9ee039fcd3382153a0f89
+ ┃ ┃ ┣ 📂de
+ ┃ ┃ ┃ ┗ 📜1ce1517773598a28b3be1d956cf32df83459d9
+ ┃ ┃ ┣ 📂f2
+ ┃ ┃ ┃ ┗ 📜494ae967f8850b73c0737fdd292b2e0103b223
+ ┃ ┃ ┣ 📂f8
+ ┃ ┃ ┃ ┗ 📜61f8f7148c05835abc5c77826b78d5e7fb6e2f
+ ┃ ┃ ┣ 📂info
+ ┃ ┃ ┗ 📂pack
+ ┃ ┣ 📂refs
+ ┃ ┃ ┣ 📂heads
+ ┃ ┃ ┃ ┗ 📜main
+ ┃ ┃ ┣ 📂remotes
+ ┃ ┃ ┃ ┗ 📂origin
+ ┃ ┃ ┃ ┃ ┣ 📜main
+ ┃ ┃ ┃ ┃ ┗ 📜master
+ ┃ ┃ ┗ 📂tags
+ ┃ ┣ 📜COMMIT_EDITMSG
+ ┃ ┣ 📜config
+ ┃ ┣ 📜description
+ ┃ ┣ 📜FETCH_HEAD
+ ┃ ┣ 📜HEAD
+ ┃ ┣ 📜index
+ ┃ ┗ 📜ORIG_HEAD
+ ┣ 📂data
+ ┃ ┣ 📜app.py
+ ┃ ┗ 📜cleaned_file.csv
+ ┣ 📂__pycache__
+ ┃ ┣ 📜app.cpython-312.pyc
+ ┃ ┣ 📜preprocessing.cpython-312.pyc
+ ┃ ┣ 📜recommender.cpython-312.pyc
+ ┃ ┗ 📜vectorizer.cpython-312.pyc
+ ┣ 📜.gitignore
+ ┣ 📜app.py
+ ┣ 📜articles.pkl
+ ┣ 📜cosine_sim.pkl
+ ┣ 📜index.html
+ ┣ 📜precompute.py
+ ┣ 📜README.md
+ ┣ 📜requirements.txt
+ ┣ 📜result_final.csv
+ ┣ 📜script.js
+ ┣ 📜style.css
+ ┗ 📜tfidf.pkl
