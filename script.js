@@ -1,4 +1,5 @@
-const backendURL = "http://127.0.0.1:8000"; //Local
+//const backendURL = "http://127.0.0.1:8000"; //Local
+const backendURL = "https://guacamole-3nby.onrender.com";
 
 
 document.addEventListener('DOMContentLoaded', initializePage);
